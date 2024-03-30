@@ -38,7 +38,7 @@
     line-height: var(--line-height-base);
  }
 
- body, a[href] {
+ body, a {
      color: var(--text-color);
  }
  
