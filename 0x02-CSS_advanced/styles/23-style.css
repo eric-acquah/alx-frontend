@@ -248,7 +248,7 @@
   }
 
   [data-section-theme="dark"] {
-    --text-colo: var(--color-white);
+    --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
   }
@@ -347,10 +347,22 @@
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
   }
+
+  .social-link {
+    display: block;
+  }
+
+  .social-link svg {
+    color: var(--text-color);
+  }
   
   .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
+  }
+
+  .footer-address {
+    color: var(--text-color);
   }
   
   .footer-copyright {
