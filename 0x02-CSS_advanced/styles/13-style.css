@@ -38,7 +38,7 @@
     line-height: var(--line-height-base);
  }
 
- body, a {
+ body, a:link {
      color: var(--text-color);
  }
  
@@ -47,7 +47,7 @@
     font-weight: var(--font-weight-bold);
  }
 
- a {
+ a:link {
     text-decoration: none;
  }
 
