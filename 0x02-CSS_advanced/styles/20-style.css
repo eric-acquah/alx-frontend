@@ -260,6 +260,7 @@
   }
   
   .row::after {
+      content: none;
       display: table;
       clear: both;
   }
