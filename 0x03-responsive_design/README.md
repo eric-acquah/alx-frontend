@@ -1,0 +1,1 @@
+Best practices to ensure adaptibility of websites on variant screen sizes and resolutions
